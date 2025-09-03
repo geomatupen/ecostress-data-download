@@ -3,7 +3,6 @@
 ## Overview
 Scripts and notebook to:
 - Search & download ECOSTRESS LST data (via earthaccess)
-- Inspect HDF5 files with GDAL
 - Convert LST (Kelvin) → GeoTIFF (°C)
 
 ## Requirements
@@ -20,8 +19,6 @@ conda create -n ecostress python=3.11 -y
 conda activate ecostress
 conda install -c conda-forge gdal numpy python-dateutil -y
 pip install earthaccess
-
-
 
 ## major functions
 - search_granules → search & download
