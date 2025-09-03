@@ -13,7 +13,9 @@ Scripts and notebook to:
 
 ## Install
 ### Use Environment
-conda env export --from-history > environment.yml
+conda env create -f environment.yml
+conda activate ecostress
+
 ### or install separately
 conda create -n ecostress python=3.11 -y
 conda activate ecostress
